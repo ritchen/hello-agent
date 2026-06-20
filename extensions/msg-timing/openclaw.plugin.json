@@ -1,0 +1,15 @@
+{
+  "id": "msg-timing",
+  "name": "Message Timing Logger",
+  "description": "Logs timestamps when messages are received and sent",
+  "contracts": {
+    "hooks": ["message_received", "message_sending"]
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false
+  }
+}
